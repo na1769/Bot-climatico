@@ -14,7 +14,7 @@ bot.run("TOKEN")
 
 @bot.command()
 async def bienvenidos(ctx):
-    await ctx.send("Bienvenidp a tu bot \n Aqui puedes encontrar diferentes informaciones sobre el medio ambiente")
+    await ctx.send("Bienvenido a tu bot \n Aqui puedes encontrar diferentes informaciones sobre el medio ambiente")
 
 @bot.command()
 async def descomposicion(ctx,*,objetos:str):
